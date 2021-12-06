@@ -1,0 +1,14 @@
+Caso haja uma tentativa de registro duplicado em um cliente ou endereço
+desativado, o sistema deve realizar a reativação (definindo a valor do campo
+"data_remoção" como nulo no banco de dados)
+>>O poblema é que não se usa UUID pra adicionar, então como saber se é duplicado? Checando se nome e tipo batem?
+
+>>A reativação de um cliente deve ser considerada como atualização e escrita no campo data_atualização?
+
+>>O status tanto do PUT quanto do DELETE estão iguais, isso está correto?
+
+>>Contrato inativo se refere ao estado "Desativado temporário" ou "Cancelado"?
+
+>>é necessária desativar um ponto duas vezes?
+
+>>contrato evento não parece servir como log, não parece haver necessidade para haver data de atualização do evento
