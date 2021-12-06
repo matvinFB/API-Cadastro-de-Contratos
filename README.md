@@ -1,2 +1,2 @@
 ## API-Cadastro-de-Contratos
-#FastApi+SQLAlchemy+Postgres
+#FastApi+SQLAlchemy+PostgreSQL
