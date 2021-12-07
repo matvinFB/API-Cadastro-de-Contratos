@@ -2,22 +2,9 @@ LEMBRAR DE ADICIONAR:
 >>Desativar um cliente ou endereço que possuem um ou mais pontos, resultará na
 desativação de todos esses pontos -- FEITO!
 
-
->>Adicionar rollback nos erros
-
+>>Adicionar rollback nos erros -- FEITO! 
 
 
->>Todo novo contrato cadastrado no sistema terá o estado inicial "Em vigor"
-
->>Não deve ser possível possuir mais de um contrato ativo para um mesmo ponto
-
->>Caso haja a tentativa de cadastrar um contrato para um ponto existente com 
-contrato inativo, o contrato é reativado
-
->>Desativar um ponto que possui um ou mais contratos resultará na desativação
-esses contratos
-
->>Não é possível usar pontos desativados no momento da criação de contratos
 
 
->>Tentar trocar string por enum em cliente tipo e em contrato estado
+
